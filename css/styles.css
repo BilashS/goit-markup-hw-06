@@ -442,6 +442,7 @@ h2{
 
 .form-checkbox{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 
@@ -457,8 +458,6 @@ h2{
     clip-path: inset(100%);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
-    opacity: 1;
-
     
 }
 
@@ -468,6 +467,9 @@ h2{
 }
 
 .checkbox-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15px;
     height: 15px;
     margin-right: 7px;
